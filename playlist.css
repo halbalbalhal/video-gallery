@@ -96,3 +96,15 @@ body {
     color: #333;
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 990px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-list {
+        width: 600px;
+    }
+}
